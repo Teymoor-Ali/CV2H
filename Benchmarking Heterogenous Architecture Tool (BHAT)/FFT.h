@@ -1,3 +1,4 @@
+#pragma once
 #ifndef FFT_HEADER_H
 #define FFT_HEADER_H
 
@@ -8,6 +9,8 @@
 #include <opencv2/cudaarithm.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
+#include <cuda_runtime.h>
+
 
 using namespace cv;
 
